@@ -29,7 +29,7 @@ const WeatherCard = ({ location }) => {
             <div className='card-box'>
                 <div className="card-inner-box">
                     <p className='card-box-location'>
-                        {weather.location.name}
+                        {weather && weather.location.name}
                     </p>
                     <div className="card-wrapper-box">
                         <h1 className='card-box-temperature'>
