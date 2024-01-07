@@ -1,0 +1,25 @@
+#other-details-container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 80%;
+    width: 40%;
+}
+.other-detail-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 33%;
+    height: 50%;
+}
+.other-detail-numbers{
+    color: aliceblue;
+    font-size: 25px;
+    margin: 0;
+}
+.other-detail-description{
+    margin: 0;
+    font-size: 16px;
+    color: aliceblue;
+    font-weight: 100;
+}
